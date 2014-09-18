@@ -57,10 +57,11 @@ nav ul li a:hover{
 #slider{
 	margin: 0px auto;
 	width: 100%;
+	background-color: #c4e3ab;
 
 }
 #contenido{
-	background-image: url(img/backgroung.jpg);
+	background-image: url(img/background.jpg);
 }
 article{
 	display:inline-block;
