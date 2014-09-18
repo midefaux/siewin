@@ -5,7 +5,9 @@
 	<meta name="description" content="aqui va la  descripcion de la empresa"/>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/estilo.css">
-	
+	<link rel="stylesheet" type="text/css" href="css/default.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
 </head>
 <body>
 	<header>
@@ -23,16 +25,17 @@
 		</nav>
 	</header>
 	<section id="slider">
-			<img src="img/slider1.png" alt="slider1"/>
-			<img src="img/slider2.png" alt="slider2"/>
-			<img src="img/slider3.png" alt="slider3"/>
-			<img src="img/slider4.png" alt="slider4"/>
-			<img src="img/slider5.png" alt="slider5"/>
-			<img src="img/slider6.png" alt="slider6"/>
-			<img src="img/slider7.png" alt="slider7"/>
-			<img src="img/slider8.png" alt="slider8"/>
-			<img src="img/slider9.png" alt="slider9"/>
-			<img src="img/slider10.png" alt="slider10"/>
+						<div id="cbp-fwslider" class="cbp-fwslider">
+				<ul>
+					<li><a href="#"><img src="img/1.png" alt="img01"/></a></li>
+					<li><a href="#"><img src="img/2.png" alt="img02"/></a></li>
+					<li><a href="#"><img src="img/3.png" alt="img03"/></a></li>
+					<li><a href="#"><img src="img/4.png" alt="img04"/></a></li>
+					<li><a href="#"><img src="img/1.png" alt="img05"/></a></li>
+				</ul>
+			</div>
+		</div>
+
 	</section>
 	<h1>Especialistas en soluciones contables, financieras y de transporte</h1>
 <h2>Ventajas de usar <span>Software aplicativo</span></h2>
@@ -66,6 +69,28 @@
 				</ul>
 			</article>
 		</section>
-	</footer>
+	</footer>		
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/jquery.cbpFWSlider.min.js"></script>
+		<script>
+			$( function() {
+				/*
+				- how to call the plugin:
+				$( selector ).cbpFWSlider( [options] );
+				- options:
+				{
+					// default transition speed (ms)
+					speed : 500,
+					// default transition easing
+					easing : 'ease'
+				}
+				- destroy:
+				$( selector ).cbpFWSlider( 'destroy' );
+				*/
+
+				$( '#cbp-fwslider' ).cbpFWSlider();
+
+			} );
+		</script>
 </body>
 </html>
