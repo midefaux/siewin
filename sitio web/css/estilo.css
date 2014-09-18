@@ -45,7 +45,7 @@ nav ul li{
 nav ul li a{
 	display: inline-block;
 	text-decoration: none;
-	color:#000;
+	color:#4d4d4d;;
 
 }
 nav ul li a:hover{
@@ -60,8 +60,30 @@ nav ul li a:hover{
 	background-color: #c4e3ab;
 
 }
+
 #contenido{
-	background-image: url(img/background.jpg);
+	background-image: url(../img/background.jpg);
+	color:#4d4d4d;
+}
+#contenido h1{
+	font-size: 1em;
+	text-align: center;
+}
+#contenido h2{
+	font-size: 0.9em;
+	padding-left:1.5em; 
+}
+#contenido span{
+	color:#73CA63;
+}
+#contenido p{
+	float:right;
+}
+#contenido li{
+	list-style: none;
+	background-image: url(../img/vineta);
+	background-repeat: no-repeat;
+	padding-left: 1em; 
 }
 article{
 	display:inline-block;
