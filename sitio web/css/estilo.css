@@ -40,11 +40,13 @@ nav ul{
 nav ul li{
 	display: inline-block;
 	padding-right:3em; 
+	font-size: 1em;
 }
 nav ul li a{
 	display: inline-block;
 	text-decoration: none;
 	color:#000;
+
 }
 nav ul li a:hover{
 	display: inline-block;
