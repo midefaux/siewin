@@ -64,28 +64,54 @@ nav ul li a:hover{
 #contenido{
 	background-image: url(../img/background.jpg);
 	color:#4d4d4d;
+	font-family: arial;
 }
 #contenido h1{
 	font-size: 1em;
 	text-align: center;
+	font-family: 'good_timesregular';
 }
 #contenido h2{
 	font-size: 0.9em;
-	padding-left:1.5em; 
+	padding-left:1.9em; 
 }
 #contenido span{
 	color:#73CA63;
 }
 #contenido p{
 	float:right;
+	margin-right:7.5em;
 }
 #contenido li{
 	list-style: none;
-	background-image: url(../img/vineta);
+	background-image: url(../img/vinetaVerde.png);
 	background-repeat: no-repeat;
-	padding-left: 1em; 
+	background-position: left;
+	padding-left: 15px; 
+}
+footer{
+	border-top: 4px solid #73CA63;
+	border-bottom: 6px solid #4d4d4d;
+
+}
+footer section{
+	text-align: center;
 }
 article{
 	display:inline-block;
 }
+article li{
+	list-style: none;
+	background-image: url(../img/vinetaNaranja.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 15px; 
+	font-family: arial;
+}
+article li a{
+	text-decoration: none;
+	color:#4d4d4d;
+	text-align: none;
+}
+
 
