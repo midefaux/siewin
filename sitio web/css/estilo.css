@@ -131,5 +131,45 @@ article li a{
 	text-decoration: none;
 	color:#4d4d4d;
 }
-
-
+/*NOSOTROS*/
+#contenidoNosotros{
+	width: 100%;
+	clear: both;
+	overflow: hidden;
+	background-image: url(../img/fondoNosotros.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #4d4d4d;
+}
+.iconoLeft{
+	float: left;
+	width:10%;
+	margin-top: 6em;
+}
+.nosotrosLeft{
+	float:left;
+	width:80%;
+	margin-top: 5.5em;
+}
+.nosotrosRight h1,.nosotrosLeft h1{
+	font-weight: bold;
+	font-size: 1em;
+}
+}
+.nosotrosRight h2,.nosotrosLeft h2,{
+	font-size: 0.7em;
+}
+.nosotrosRight p, .nosotrosLeft p{
+	font-size:0.6em;
+}
+.nosotrosRight{
+	clear: both;
+	float:left;
+	width: 80%;
+	text-align: right;
+}
+.iconoRight{
+	display: inline-block;
+	width: 10%;
+	clear: both;
+}
